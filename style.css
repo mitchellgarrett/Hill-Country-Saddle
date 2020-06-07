@@ -2,7 +2,7 @@
 
 :root {
     --bg_img: url('img/background.png');
-    --bg: black;
+    --bg-color: black;
     
     --text-color0: white;
 }
@@ -10,9 +10,8 @@
 /*** BODY ***/
 
 body {
-    background-color: var(--bg);
+    background-color: var(--bg-color);
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     color: var(--text-color0);
 }
 
@@ -35,13 +34,17 @@ a {
     color: inherit;
     text-decoration: inherit;
 }  
-  
+
+img.logo {
+    width: 5%;
+}
+
 /*** NAVBAR ***/
 
 .navbar {
     height: 5em;
     width: 100%;
-    background: var(--bg);
+    background: var(--bg-color);
     color: var(--text-color0)
 }
 
@@ -58,6 +61,7 @@ a {
 
 .nav-item {
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .nav-item:hover {
