@@ -1,7 +1,39 @@
+/*** THEMES ***/
+
+:root {
+    --bg_img: url('img/background.png');
+    --bg: black;
+    
+    --text-color0: white;
+}
+
+/*** BODY ***/
+
+body {
+    background-color: var(--bg);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color0);
+}
+
+body::after {
+    content: "";
+    background-image: var(--bg_img);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
 /*** NAVBAR ***/
 
 .navbar {
-    height: 70px;
+    height: 5em;
     width: 100%;
     background: black;
     color: white;
@@ -16,4 +48,12 @@
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
+}
+
+.nav-item {
+    font-size: 1.5em;
+}
+
+.nav-item:hover {
+    opacity: 0.5;
 }
