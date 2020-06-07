@@ -40,8 +40,8 @@ a {
 .navbar {
     height: 5em;
     width: 100%;
-    background: black;
-    color: white;
+    background: var(--bg);
+    color: var(--text-color0)
 }
 
 .navbar-nav {
