@@ -28,8 +28,13 @@ body::after {
     right: 0;
     position: absolute;
     z-index: -1;   
-  }
+}
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}  
+  
 /*** NAVBAR ***/
 
 .navbar {
