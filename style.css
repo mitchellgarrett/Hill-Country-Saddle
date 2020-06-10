@@ -15,7 +15,7 @@ body {
     color: var(--text-color0);
 }
 
-body::after {
+body.main-background::after {
     content: "";
     background-image: var(--bg_img);
     background-repeat: no-repeat;
