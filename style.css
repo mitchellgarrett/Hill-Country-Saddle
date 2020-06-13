@@ -46,15 +46,21 @@ img.logo {
 
 img.icon {
     height: 2rem;
-    background-color: white;
     padding: 0.1rem;
-    border: 2px solid var(--text-color0);
+}
+
+img.icon.dark {
+    background-color: white;
+    border: 1px solid white;
     border-radius: 10px;
-    
 }
 
 img.icon:hover {
     opacity: 0.5;
+}
+
+.social {
+    display: inline-block;
 }
 
 footer {
