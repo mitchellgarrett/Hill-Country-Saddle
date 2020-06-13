@@ -59,10 +59,6 @@ img.icon:hover {
     opacity: 0.5;
 }
 
-.social {
-    display: inline-block;
-}
-
 footer {
     position: fixed;
     left: 0;
