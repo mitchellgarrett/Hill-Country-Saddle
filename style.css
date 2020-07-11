@@ -71,10 +71,8 @@ footer {
 /*** CARDS ***/
 
 song-card {
-    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 25%;
     
     padding-top: 1%;
@@ -82,6 +80,7 @@ song-card {
     padding-left: 2%;
     padding-right: 2%;
     
+    text-align: center;
     background-color: white;
     color: var(--bg-color);
     
